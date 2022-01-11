@@ -8,8 +8,8 @@ public class Proizvod
 	
 	public void stampaj()
 	{
-		System.out.println(this.naziv);
-		System.out.println(this.cena);
-		System.out.println(this.tezina);
+		System.out.print("{{" +this.naziv+"}}, ");
+		System.out.println("{{"+this.cena+"}}, ");
+		System.out.println("{{"+this.tezina+"g}}");
 	}
 }
