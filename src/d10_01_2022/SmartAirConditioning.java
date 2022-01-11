@@ -9,8 +9,8 @@ String mod;
 
 public void stampaj()
 {
-	System.out.println(this.naziv+" klima ");
-	System.out.println(this.mod+ "do ");
+	System.out.print(this.naziv+" klima ");
+	System.out.print(this.mod+ " do ");
 	System.out.println(this.temp+ " stepeni.");
 }
 }
