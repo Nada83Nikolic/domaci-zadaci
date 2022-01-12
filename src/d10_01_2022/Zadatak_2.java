@@ -5,7 +5,7 @@ public class Zadatak_2 {
 	public static void main(String[] args) {
 		SmartAirConditioning tip1=new SmartAirConditioning();
 		tip1.naziv="Samsung";
-		tip1.temp=32;
+		tip1.temp=30;
 		tip1.mod="greje";
 		
 		tip1.stampaj();
