@@ -35,10 +35,6 @@ public class Zadatak_3
 		korisnik2.share();
 		korisnik2.share();
 		korisnik2.dislike();
-		korisnik2.dislike();
-		korisnik2.dislike();
-		korisnik2.dislike();
-		korisnik2.dislike();
 		korisnik2.print();
 		
 	}
