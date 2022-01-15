@@ -28,13 +28,17 @@ public class Zadatak_3
 		korisnik2.imeObjavio="Nada Nikolic ";
 		korisnik2.imeKome=" Drugarima sa kursa";
 		korisnik2.textObjave="Super smo odradili test, bravo :D";
-		korisnik2.brojLajkova=15;
+		korisnik2.brojLajkova=1;
 		korisnik2.brojDeljenja=4;
 		
 		korisnik2.like();
 		korisnik2.share();
 		korisnik2.share();
-		korisnik2.like();
+		korisnik2.dislike();
+		korisnik2.dislike();
+		korisnik2.dislike();
+		korisnik2.dislike();
+		korisnik2.dislike();
 		korisnik2.print();
 		
 	}
