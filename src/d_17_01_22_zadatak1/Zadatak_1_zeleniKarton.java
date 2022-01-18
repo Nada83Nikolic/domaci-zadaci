@@ -13,8 +13,7 @@ public class Zadatak_1_zeleniKarton {
 		ZeleniKarton z3 = new ZeleniKarton("Marina", "Joksimovic", "Jovan", "Savic", "1034/2001", "Srpski", 9);
 		ZeleniKarton z4 = new ZeleniKarton("Marko", "Jokic", "Stevan", "Popovic", "1084/1995", "Srpski", 8);
 		ZeleniKarton z5 = new ZeleniKarton("Sanja", "Vasic", "Ilija", "Jovanovic", "1257/1999", "Engleski", 5);
-		
-		
+
 		zk.add(z1);
 		zk.add(z2);
 		zk.add(z3);

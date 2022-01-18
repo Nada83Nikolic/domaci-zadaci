@@ -8,18 +8,19 @@ public class ZeleniKarton {
 	private String brojIndexa;
 	private String nazivPredmeta;
 	private int ocena;
-	double prosecnaOcena;
+
+
 	public ZeleniKarton() {
-		
+
 	}
 
-	public ZeleniKarton(String imeStudenta, String prezimeStudenta,String imeProfesora,String prezimeProfesora, String brojIndexa, String nazivPredmeta,
-			int ocena) {
-		
+	public ZeleniKarton(String imeStudenta, String prezimeStudenta, String imeProfesora, String prezimeProfesora,
+			String brojIndexa, String nazivPredmeta, int ocena) {
+
 		this.imeStudenta = imeStudenta;
 		this.prezimeStudenta = prezimeStudenta;
-		this.imeProfesora=imeProfesora;
-		this.prezimeProfesora=prezimeProfesora;
+		this.imeProfesora = imeProfesora;
+		this.prezimeProfesora = prezimeProfesora;
 		this.brojIndexa = brojIndexa;
 		this.nazivPredmeta = nazivPredmeta;
 		this.ocena = ocena;
@@ -68,25 +69,21 @@ public class ZeleniKarton {
 	public String getBrojIndexa() {
 		return brojIndexa;
 	}
-	public boolean daLiJePolozio()
-	{
-		return this.ocena>5;
+
+	public boolean daLiJePolozio() {
+		return this.ocena > 5;
 	}
-	
-	public void print()
-	{
-		System.out.println(this.nazivPredmeta+" - "+this.ocena+"\nStudent: "+this.imeStudenta+" "+this.prezimeStudenta);
-		System.out.println("Profesor: "+this.imeProfesora+" "+this.prezimeProfesora);
-		if(this.daLiJePolozio()==true)
-		{
+
+	public void print() {
+		System.out.println(this.nazivPredmeta + " - " + this.ocena + "\nStudent: " + this.imeStudenta + " "
+				+ this.prezimeStudenta);
+		System.out.println("Profesor: " + this.imeProfesora + " " + this.prezimeProfesora);
+		if (this.daLiJePolozio() == true) {
 			System.out.println("Ispit je polozen.");
-		}
-		else
-		{
+		} else {
 			System.out.println("Ispit nije polozen.");
 		}
 		System.out.println();
 	}
-	
 
 }
