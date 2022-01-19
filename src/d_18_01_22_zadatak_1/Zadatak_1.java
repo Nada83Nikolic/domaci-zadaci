@@ -13,6 +13,7 @@ public class Zadatak_1 {
 		s1.dodajIspit(i2);
 		s1.dodajIspit(i3);
 		s1.dodajIspit(i4);
+		
 	//	i1.stampajIspit();
 	//	i2.stampajIspit();
 	//	i3.stampajIspit();
